@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_elements_card",
+  "info": {
+    "displayName": "card",
+    "icon": "expand",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.button-link"
+    },
+    "Type": {
+      "type": "enumeration",
+      "enum": [
+        "Forsíða",
+        "Starfsmaður",
+        "Vara"
+      ],
+      "default": "Vara"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

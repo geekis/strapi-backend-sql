@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_blocks_main_contents",
+  "info": {
+    "displayName": "Main Content"
+  },
+  "options": {},
+  "attributes": {
+    "Content": {
+      "type": "blocks"
+    }
+  }
+}
